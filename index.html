@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima.te</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather--header">
+        <div class="appName"><h2>clima.<span id="name">te</span></h2></div>
+
+        <div class="weather--search">
+          <form class="wsearch">
+            <input
+              type="text"
+              placeholder="Search for a city..."
+              class="weather--search--form"
+            /><i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+        <!--  -->
+      </div>
+      <div class="weather--body">
+        <h1 class="weather--city"></h1>
+        <div class="weather--datetime">
+          
+        </div>
+        <div class="weather--forecast"></div>
+        <div class="weather--icon">
+          
+        </div>
+        <p class="weather--temp"></p>
+        <div class="weather--MinMax">
+          
+        </div>
+        <div class="weather--unit">
+          <span class="weather--unit--c">&#176C</span>
+          <span class="weather--unit--f">&#176F </span>
+        </div>
+
+      </div>
+      <div class="weather--info">
+        <div class="weather--card">
+          <i class="fa-solid fa-temperature-three-quarters"></i>
+          <div>
+            <p>Real Feel</p>
+            <p class="weather--card--temp"></p>
+          </div>
+        </div>
+        <div class="weather--card">
+          <i class="fa-solid fa-droplet"></i>
+          <div>
+            <p >Humidity</p>
+            <p class="weather--card--humid">hi</p>
+          </div>
+        </div>
+        <div class="weather--card">
+          <i class="fa-solid fa-wind"></i>
+          <div>
+            <p >Wind</p>
+            <p class="weather--card--wind">hi</p>
+          </div>
+        </div>
+        <div class="weather--card">
+          <i class="fa-solid fa-gauge"></i>
+          <div>
+            <p >Pressure</p>
+            <p class="weather--card--pressure">hi</p>
+          </div>
+        </div>
+       
+
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0079fb9011.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
